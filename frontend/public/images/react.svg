@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0f1b33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="25%" r="60%">
+      <stop offset="0" stop-color="#6ea8fe" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6ea8fe" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g fill="none" stroke="#6ea8fe" stroke-opacity="0.85" stroke-width="10">
+    <ellipse cx="600" cy="340" rx="320" ry="120"/>
+    <ellipse cx="600" cy="340" rx="320" ry="120" transform="rotate(60 600 340)"/>
+    <ellipse cx="600" cy="340" rx="320" ry="120" transform="rotate(-60 600 340)"/>
+  </g>
+  <circle cx="600" cy="340" r="28" fill="#6ea8fe"/>
+  <text x="60" y="110" fill="#e9eefc" font-family="Segoe UI, Arial" font-size="56" font-weight="800">React</text>
+  <text x="60" y="170" fill="#a9b6d6" font-family="Segoe UI, Arial" font-size="26">Modern arayüzler " Component " Router</text>
+</svg>
+

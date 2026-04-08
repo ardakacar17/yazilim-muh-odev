@@ -1,0 +1,79 @@
+.home-hero {
+  background: linear-gradient(135deg, #1e1b4b 0%, #4f46e5 50%, #7c3aed 100%);
+  color: white;
+  padding: 72px 0;
+}
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.hero-text p {
+  font-size: 17px;
+  opacity: 0.85;
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
+.hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-cta .btn-outline { border-color: rgba(255,255,255,0.6); color: white; }
+.hero-cta .btn-outline:hover { background: rgba(255,255,255,0.15); }
+
+.hero-visual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.hero-card {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.hero-card-icon { font-size: 32px; margin-bottom: 8px; }
+
+.home-features { padding: 64px 0; background: white; }
+.home-features h2 { font-size: 28px; font-weight: 700; text-align: center; margin-bottom: 36px; }
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.feature-card {
+  padding: 24px;
+  text-align: center;
+  transition: transform 0.15s;
+}
+.feature-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.feature-icon { font-size: 40px; margin-bottom: 12px; }
+.feature-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+.feature-card p { font-size: 14px; color: var(--gray-600); line-height: 1.6; }
+
+.home-cta {
+  background: linear-gradient(135deg, var(--primary-light), #ede9fe);
+  padding: 64px 0;
+}
+.cta-inner { text-align: center; }
+.cta-inner h2 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.cta-inner p { color: var(--gray-600); margin-bottom: 24px; font-size: 16px; }
+.cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+@media (max-width: 768px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-text h1 { font-size: 28px; }
+  .hero-visual { display: none; }
+  .features-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .features-grid { grid-template-columns: 1fr; }
+}

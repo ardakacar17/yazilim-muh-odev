@@ -1,0 +1,54 @@
+.detail-hero {
+  background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 100%);
+  color: white;
+  padding: 40px 0;
+}
+.detail-hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 40px;
+  align-items: start;
+}
+.detail-info { padding-top: 8px; }
+.detail-info h1 { font-size: 28px; font-weight: 700; margin: 12px 0 10px; line-height: 1.3; }
+.detail-info p { opacity: 0.85; font-size: 15px; margin-bottom: 16px; line-height: 1.6; }
+.detail-meta { display: flex; gap: 20px; font-size: 14px; opacity: 0.75; }
+
+.detail-action-card {
+  position: sticky;
+  top: 80px;
+  overflow: hidden;
+}
+.detail-thumb { height: 180px; background: var(--primary-light); overflow: hidden; }
+.detail-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb-placeholder.big { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 64px; background: linear-gradient(135deg, #e0e7ff, #ddd6fe); }
+.detail-action-body { padding: 20px; }
+
+.enrolled-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: var(--success);
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--gray-600);
+  margin-bottom: 6px;
+}
+.enroll-note { text-align: center; color: var(--gray-400); font-size: 14px; padding: 12px 0; }
+
+.detail-body { padding: 32px 24px; }
+.instructor-card { padding: 24px; max-width: 600px; }
+.instructor-card h3 { font-size: 17px; margin-bottom: 12px; }
+.instructor-name { font-weight: 600; font-size: 15px; margin-bottom: 8px; }
+.instructor-bio { color: var(--gray-600); font-size: 14px; line-height: 1.6; }
+
+@media (max-width: 768px) {
+  .detail-hero-inner { grid-template-columns: 1fr; }
+  .detail-action-card { position: static; }
+}

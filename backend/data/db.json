@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "created_at": "2026-03-16T08:53:12.996Z",
+    "version": 1
+  },
+  "roles": [
+    {
+      "id": 1,
+      "name": "egitmen"
+    },
+    {
+      "id": 2,
+      "name": "ogrenci"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programlama"
+    },
+    {
+      "id": 2,
+      "name": "Tasarım"
+    },
+    {
+      "id": 3,
+      "name": "Veri Bilimi"
+    },
+    {
+      "id": 4,
+      "name": "Mobil Geliştirme"
+    },
+    {
+      "id": 5,
+      "name": "DevOps"
+    },
+    {
+      "id": 6,
+      "name": "Siber Güvenlik"
+    },
+    {
+      "id": 7,
+      "name": "Yapay Zeka"
+    },
+    {
+      "id": 8,
+      "name": "Web Geliştirme"
+    }
+  ],
+  "users": [],
+  "courses": [],
+  "enrollments": []
+}

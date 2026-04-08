@@ -1,0 +1,24 @@
+{
+  "name": "lms-backend",
+  "version": "1.0.0",
+  "description": "LMS Platform Backend (local JSON DB)",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18 <23"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "yazilimmuh-lms": "file:.."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

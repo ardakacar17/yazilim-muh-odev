@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#102a1e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g transform="translate(600 360)">
+    <polygon points="0,-180 156,-90 156,90 0,180 -156,90 -156,-90" fill="none" stroke="#34d399" stroke-width="14" stroke-opacity="0.85"/>
+    <text x="-60" y="18" fill="#34d399" font-family="Segoe UI, Arial" font-size="64" font-weight="900">JS</text>
+  </g>
+  <text x="60" y="110" fill="#e9eefc" font-family="Segoe UI, Arial" font-size="56" font-weight="800">Node + Express</text>
+  <text x="60" y="170" fill="#a9b6d6" font-family="Segoe UI, Arial" font-size="26">REST API " JWT " Middleware</text>
+</svg>
+
